@@ -12,10 +12,10 @@
 <body>
     <h1 class="text-center">Filtros de Busqueda</h1>
     <label for="">Busqueda Titulo</label>
-    <input type="text" class="form-control" id="titulo_libro" placeholder="Ingresa el titulo del libro" onchange="busquedaTitulo()">
+    <input type="text" class="form-control" id="titulo_libro" placeholder="Ingresa el titulo del libro" onkeyup="busquedaTitulo()">
 
     <label>Busqueda Autor</label>
-    <input type="text" class="form-control" id="autor_libro" placeholder="Ingresa el autor del libro" onchange="busquedaAutor()">
+    <input type="text" class="form-control" id="autor_libro" placeholder="Ingresa el autor del libro" onkeyup="busquedaAutor()">
     <br>
     <!-- apartado de los libros -->
     <div id="crudLibro">
@@ -35,7 +35,7 @@
 
             </tbody>
         </table>
-
+        
         <!-- Modal para registrar un nuevo libro -->
         <div class="modal" id="modalLibro">
             <div class="modal-dialog">
@@ -117,6 +117,9 @@
         </div>
     </div>
 </body>
+<script>
+    //code de javascript
+</script>
 <script src="js/funciones.js"></script>
 <script src="js/libro.js"></script>
 </html>

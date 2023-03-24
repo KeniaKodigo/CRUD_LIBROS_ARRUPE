@@ -62,8 +62,10 @@ class Libro{
     }
 }
 
-//libro = new Libro("Clean Code","Robert","Informatica",1968,10);
-
-//libro2 = new Libro("Harry Potter")
-
+/*libro = new Libro("Clean Code","Robert","Informatica",1968,10);
+Libro.agregar(libro);
+libro2 = new Libro("Harry Potter","Antonio","Aventura",1975,5);
+Libro.agregar(libro2);
+console.log(Libro.libros);
+console.log(Libro.obtenerNombre("Cl"));*/
 //Libro.ultimoId
